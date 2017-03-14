@@ -4,9 +4,12 @@ public class CarTester {
 
 	public static void main(String[] args) {
 
-		Car car =new Car("Porsche",1800, "myMan");
-		System.out.println(car.cc+"cc  "+car.name+" "+car.brand);
-				
+		Car c1 =new Car("Porsche",1800, "myMan");
+		Car c2 =new Car("BMW",1800, "myMan2");
+		Car c3 =new Car("Benz",1800, "myMan3");
+		System.out.println(c1.cc+"cc  "+c1.name+" "+c1.brand);
+		System.out.println(c2.cc+"cc  "+c2.name+" "+c2.brand);
+		System.out.println(c3.cc+"cc  "+c3.name+" "+c3.brand);
 		}
 
 	}
