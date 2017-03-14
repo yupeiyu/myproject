@@ -4,8 +4,8 @@ public class CarTester {
 
 	public static void main(String[] args) {
 
-		Car car =new Car("Totyal",1800);
-		System.out.println(car.cc);
+		Car car =new Car("Porsche",1800, "myMan");
+		System.out.println(car.cc+"cc  "+car.name+" "+car.brand);
 				
 		}
 
