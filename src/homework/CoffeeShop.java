@@ -13,4 +13,8 @@ public class CoffeeShop {
 		this.price=price;
 
 }
+	CoffeeShop[] cf= new CoffeeShop[3];
+	//CoffeeShop類別裡，名為cf的陣列有 0,1,2格
+	
+	
 }
