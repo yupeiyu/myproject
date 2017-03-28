@@ -26,6 +26,12 @@ public class CfspTester {
 		sum = sum + cf[i].price;
 		}
 		System.out.println("amount= $"+sum);
+		
+		//計算當月目前累積銷售杯數
+		System.out.println("銷售統計");
+		cf[0].setQuantity(200);
+		cf[0].addQuantityToday(50);
+		System.out.println(cf[0].name+" 當月目前累積銷售杯數: "+cf[0].quantity);
 	}
 
 }
