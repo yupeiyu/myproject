@@ -4,27 +4,37 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Invoice {
-
+	static String in;
 	public static void main(String[] args) {
 		ArrayList<String> a =new ArrayList<String>();
 		a.add("331");
 		a.add("821");
 		a.add("886");
 		a.add("554");
-		System.out.println("½Ð¿é¤Jµo²¼¸¹½X: ");
+		System.out.println("è«‹è¼¸å…¥ç™¼ç¥¨è™Ÿç¢¼: ");
 		Scanner s = new Scanner(System.in);
-		String in=s.nextLine();
+		in=s.nextLine();
 		String tail=in.substring(in.length()-3);
 		System.out.println(tail);
-		for(int i=0;i<5;i++){
-			if(a.get(i).equals(tail)){
-				System.out.println("®¥³ß¤¤¼ú "+in);
-			}else{
-				System.out.println("¨S¤¤"+in);
-			}
+		
+		switch(tail){
+		case"331":
+			print();
+			break;
+		case"821":
+			print();
+		case"886":
+			print();
+		case"554":
+			print();
+		default:
+			System.out.println(in+"æ²’ä¸­");
 		}
+		
 	}
-	
+	public static void print(){
+		System.out.println("æ­å–œä¸­çŽ "+in);
+	}
 	}
 
 
