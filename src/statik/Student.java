@@ -7,7 +7,9 @@ public class Student {
 	int english;
 	int chinese;
 	static int pass=40;//同一個規定，每個物件都用同一個，也只有一個
-	
+	public Student(){
+		//因為要被繼承，所以要有空的建構子
+	}
 	public Student(int math,int english,int chinese){
 		this.math=math;
 		this.english=english;
