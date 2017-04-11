@@ -11,7 +11,7 @@ public class Invoice {
 		a.add("821");
 		a.add("886");
 		a.add("554");
-		System.out.println("請輸入發票號碼: ");
+		System.out.println("請輸入發票號碼:  ");
 		Scanner s = new Scanner(System.in);
 		in=s.nextLine();
 		String tail=in.substring(in.length()-3);
@@ -23,10 +23,13 @@ public class Invoice {
 			break;
 		case"821":
 			print();
+			break;
 		case"886":
 			print();
+			break;
 		case"554":
 			print();
+			break;
 		default:
 			System.out.println(in+"沒中");
 		}

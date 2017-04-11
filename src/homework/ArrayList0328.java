@@ -5,17 +5,17 @@ import java.util.ArrayList;
 public class ArrayList0328 {
 
 	public static void main(String[] args) {
-		//¥[¤J<String>­­©w¸ê®Æ«¬ºA¡A¤è«K¿é¤J¸ò¨ú¥X¡A¥Bget¤£¥ÎÂà«¬
+		//åŠ å…¥<String>é™å®šè³‡æ–™å‹æ…‹ï¼Œæ–¹ä¾¿è¼¸å…¥è·Ÿå–å‡ºï¼Œä¸”getä¸ç”¨è½‰å‹
 		ArrayList<String> a=new ArrayList<String>();
 		a.add("OMG");
 		a.add("WTF");
 		a.add("BTW");
 		System.out.println(a);
-		//ºÉ¶q¤£­n©ñ¤£¦Ptype, ¶°¦XÃø³B²z
+		//ç›¡é‡ä¸è¦æ”¾ä¸åŒtype, é›†åˆé›£è™•ç†
 		a.set(2, "HAHA");
 		System.out.println(a.size());
 		System.out.println(a);
-		/* get() ¥u®³ª«¥ó, ®³¨ä¥LªF¦è­nÂà«¬ (¯Á¤Ş­È)
+		/* get() åªæ‹¿ç‰©ä»¶, æ‹¿å…¶ä»–æ±è¥¿è¦è½‰å‹ (ç´¢å¼•å€¼)
 		String n = (String)a.get(0);
 		*/
 		String n=a.get(0);

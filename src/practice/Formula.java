@@ -1,4 +1,4 @@
-package hw;
+package practice;
 
 import java.util.Scanner;
 
@@ -26,7 +26,6 @@ public class Formula {
 		
 		
 		System.out.println("Sum = "+sum);//印出最後的值
-		
 	}
 
 }

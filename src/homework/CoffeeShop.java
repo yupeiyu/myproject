@@ -8,7 +8,7 @@ public class CoffeeShop {
 	double price;
 	double amount;
 	public CoffeeShop(String size , double price, String name){
-		this.name=name; //this.ÅÜ¼Æ  ¥þ°ì; =ÅÜ¼Æ °Ï°ì; (ÅÜ¼Æ,ÅÜ¼Æ...) °Ï°ì
+		this.name=name; //this.è®Šæ•¸=å±¬æ€§ é¡žåˆ¥å±¤ç´šçš„è®Šæ•¸ 
 		this.size=size;
 		this.price=price;
 

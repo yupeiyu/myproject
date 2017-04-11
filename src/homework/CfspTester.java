@@ -14,9 +14,9 @@ public class CfspTester {
 		System.out.println("amount= $"+(c1.price+c2.price+c3.price));
 		*/
 		CoffeeShop[] cf= new CoffeeShop[3];
-		//CoffeeShopÃş§O¸Ì¡A¦W¬°cfªº°}¦C¦³ 0,1,2®æ  ¸Ì­±­È¤wªì©l¤Ænull 
-		//null ªí¥Ü¨Ã¥¼«ü¨ì¥ô¦óª«¥ó ¨Ï¥Î«e¤@©w­n½T©w¦³ª«¥ó(new)
-		//°}¦C¦³scoping ¨C­Óª«¥ó¦³¥Í¦sªÅ¶¡¡A¥X¤FªÅ¶¡´N¤£¯à¥Î
+		//CoffeeShopé¡åˆ¥è£¡ï¼Œåç‚ºcfçš„é™£åˆ—æœ‰ 0,1,2æ ¼  è£¡é¢å€¼å·²åˆå§‹åŒ–null 
+				//null è¡¨ç¤ºä¸¦æœªæŒ‡åˆ°ä»»ä½•ç‰©ä»¶ ä½¿ç”¨å‰ä¸€å®šè¦ç¢ºå®šæœ‰ç‰©ä»¶(new)
+				//é™£åˆ—æœ‰scoping æ¯å€‹ç‰©ä»¶æœ‰ç”Ÿå­˜ç©ºé–“ï¼Œå‡ºäº†ç©ºé–“å°±ä¸èƒ½ç”¨
 		cf[0]=new CoffeeShop ("Large",4, "Macchiato Caramel");
 		cf[1]=new CoffeeShop ("small",3, "Latte");
 		cf[2]=new CoffeeShop ("middle",3.5, "Irish Coffee");
@@ -27,11 +27,11 @@ public class CfspTester {
 		}
 		System.out.println("amount= $"+sum);
 		
-		//­pºâ·í¤ë¥Ø«e²Ö¿n¾P°âªM¼Æ
-		System.out.println("¾P°â²Î­p");
+		//è¨ˆç®—ç•¶æœˆç›®å‰ç´¯ç©éŠ·å”®æ¯æ•¸
+		System.out.println("éŠ·å”®çµ±è¨ˆ");
 		cf[0].setQuantity(200);
 		cf[0].addQuantityToday(50);
-		System.out.println(cf[0].name+" ·í¤ë¥Ø«e²Ö¿n¾P°âªM¼Æ: "+cf[0].quantity);
+		System.out.println(cf[0].name+" ç•¶æœˆç›®å‰ç´¯ç©éŠ·å”®æ¯æ•¸:  "+cf[0].quantity);
 	}
 
 }
