@@ -28,6 +28,16 @@ public class Student {
 		}
 		
 	}
+	//繼承Object並覆寫方法toString
+	@Override
+	public String toString(){
+		
+		return
+				"english: "+english+
+				"chinese: "+chinese+
+				"math: "+math;
+		
+	}
 
 }
 
