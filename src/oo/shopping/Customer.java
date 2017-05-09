@@ -18,7 +18,7 @@ float refound;
 	
 	public void discount(){
 		amount=price;
-		System.out.println("折扣價: "+amount+" 還元: "+refound);
+		System.out.println("原價: "+price+" 折扣價: "+amount+" 還元: "+refound);
 	}
 
 }
